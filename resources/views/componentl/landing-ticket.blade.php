@@ -16,7 +16,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/2pac.jpg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/2pac.jpg') }}" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
@@ -25,7 +25,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/billie.jpeg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/billie.jpeg') }}" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
@@ -34,7 +34,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/drake.jpg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/drake.jpg') }}" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
@@ -43,7 +43,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/kendrick.jpg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/kendrick.jpg') }}" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 5-->
@@ -52,7 +52,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/sza.jpg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/sza.jpg') }}" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 6-->
@@ -61,7 +61,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid uniform-img" src="{{ asset('assets/img/portfolio/travis.jpg') }}" alt="..." />
+                        <img class="img-fluid uniform-img" src="{{ asset('assets_landingpage/img/portfolio/travis.jpg') }}" alt="..." />
                     </div>
                 </div>
             </div>

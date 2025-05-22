@@ -3,8 +3,6 @@
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\logincontroller;
-use App\Http\Controllers\PegawaiController;
-use App\Http\Controllers\registercontroller;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -31,16 +29,7 @@ Route::group([
 ], function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
-    Route::group([
-        "prefix" => "/pegawai",
-        "as"     => "pegawai."
-    ], function () {
-        Route::get("/", [PegawaiController::class, 'index'])->name('index');
-        Route::get("/create", [PegawaiController::class, 'create'])->name('create');
-        Route::post("/store", [PegawaiController::class, 'store'])->name('store');
-        Route::post("/delete", [PegawaiController::class, 'delete'])->name('delete');
     });
-});
 
 // Rooute::group(["prefix" => "pegawai"])
 // 
