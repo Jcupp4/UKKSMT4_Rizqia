@@ -28,14 +28,23 @@ return [
     | sending an e-mail. You will specify which one you are using for your
     | mailers below. You are free to add additional mailers as required.
     |
+<<<<<<< HEAD
     | Supported: "smtp", "sendmail", "mailgun", "ses",
     |            "postmark", "log", "array", "failover"
+=======
+    | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
+    |            "postmark", "log", "array", "failover", "roundrobin"
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     |
     */
 
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
+<<<<<<< HEAD
+=======
+            'url' => env('MAIL_URL'),
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
@@ -49,15 +58,26 @@ return [
             'transport' => 'ses',
         ],
 
+<<<<<<< HEAD
         'mailgun' => [
             'transport' => 'mailgun',
+=======
+        'postmark' => [
+            'transport' => 'postmark',
+            // 'message_stream_id' => null,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
             // 'client' => [
             //     'timeout' => 5,
             // ],
         ],
 
+<<<<<<< HEAD
         'postmark' => [
             'transport' => 'postmark',
+=======
+        'mailgun' => [
+            'transport' => 'mailgun',
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
             // 'client' => [
             //     'timeout' => 5,
             // ],
@@ -84,6 +104,17 @@ return [
                 'log',
             ],
         ],
+<<<<<<< HEAD
+=======
+
+        'roundrobin' => [
+            'transport' => 'roundrobin',
+            'mailers' => [
+                'ses',
+                'postmark',
+            ],
+        ],
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     ],
 
     /*

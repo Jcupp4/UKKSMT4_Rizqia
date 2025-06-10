@@ -3,6 +3,10 @@
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
+<<<<<<< HEAD
+=======
+use Monolog\Processor\PsrLogMessageProcessor;
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 
 return [
 
@@ -61,6 +65,10 @@ return [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
+=======
+            'replace_placeholders' => true,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'daily' => [
@@ -68,6 +76,10 @@ return [
             'path' => storage_path('logs/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
             'days' => 14,
+<<<<<<< HEAD
+=======
+            'replace_placeholders' => true,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'slack' => [
@@ -76,6 +88,10 @@ return [
             'username' => 'Laravel Log',
             'emoji' => ':boom:',
             'level' => env('LOG_LEVEL', 'critical'),
+<<<<<<< HEAD
+=======
+            'replace_placeholders' => true,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'papertrail' => [
@@ -87,6 +103,10 @@ return [
                 'port' => env('PAPERTRAIL_PORT'),
                 'connectionString' => 'tls://'.env('PAPERTRAIL_URL').':'.env('PAPERTRAIL_PORT'),
             ],
+<<<<<<< HEAD
+=======
+            'processors' => [PsrLogMessageProcessor::class],
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'stderr' => [
@@ -97,16 +117,29 @@ return [
             'with' => [
                 'stream' => 'php://stderr',
             ],
+<<<<<<< HEAD
+=======
+            'processors' => [PsrLogMessageProcessor::class],
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'syslog' => [
             'driver' => 'syslog',
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
+=======
+            'facility' => LOG_USER,
+            'replace_placeholders' => true,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'errorlog' => [
             'driver' => 'errorlog',
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
+=======
+            'replace_placeholders' => true,
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         ],
 
         'null' => [

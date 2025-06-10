@@ -21,7 +21,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+<<<<<<< HEAD
         'role',
+=======
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     ];
 
     /**
@@ -41,10 +44,15 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+<<<<<<< HEAD
     ];
 
     public function userReference()
     {
         return $this->hasOne(UserReference::class);
     }
+=======
+        'password' => 'hashed',
+    ];
+>>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 }
