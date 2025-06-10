@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\FrontEndController;
@@ -11,12 +10,10 @@ use App\Http\Controllers\OrderC;
 use App\Http\Controllers\ProductC;
 use App\Http\Controllers\RuanganC;
 use App\Http\Controllers\Student\StudentController;
-=======
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\logincontroller;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +26,6 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-<<<<<<< HEAD
 
 
 Route::get('/', [FrontEndController::class, 'index']);
@@ -113,7 +109,6 @@ Route::group([
     Route::post('/history/clear/employee', [OrderC::class, 'clearHistoryEmployee'])->name('order.history.clear.employee');
     Route::get('/order/history/employee', [OrderC::class, 'employeeHistory'])->name('order.history.employee');
 });
-=======
 Route::get('/', function () {
     return view('masters.master');
 });
@@ -131,4 +126,3 @@ Route::group([
 
 // Rooute::group(["prefix" => "pegawai"])
 // 
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e

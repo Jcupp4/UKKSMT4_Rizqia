@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   @extends('auth.Auth')
 
   @section('title')
@@ -95,7 +94,6 @@
       <!--end col-->
   </div>
   @endsection
-=======
 <!DOCTYPE html>
 <html lang="en">
     
@@ -207,4 +205,3 @@
     @include('include.scriptdash')
 <!-- Mirrored from mannatthemes.com/bullkit/default/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 02:09:27 GMT -->
 </html>
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e

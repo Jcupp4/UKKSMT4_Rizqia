@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('auth.Auth')
 
 @section('title')
@@ -78,7 +77,6 @@
 
     </div>
 @endsection
-=======
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -159,4 +157,3 @@
     @include('include.script')
 </body>
 </html>
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e

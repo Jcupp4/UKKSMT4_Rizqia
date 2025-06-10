@@ -1,7 +1,6 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-<<<<<<< HEAD
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
@@ -17,7 +16,6 @@
         "symfony/event-dispatcher": "^6.0",
         "symfony/string": "^6.0",
         "symfony/yaml": "^6.0"
-=======
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
@@ -27,7 +25,6 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -35,11 +32,8 @@
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-<<<<<<< HEAD
         "phpunit/phpunit": "^10.0",
-=======
         "phpunit/phpunit": "^10.1",
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -70,12 +64,9 @@
         ]
     },
     "extra": {
-<<<<<<< HEAD
         "branch-alias": {
             "dev-master": "10.x-dev"
         },
-=======
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         "laravel": {
             "dont-discover": []
         }
@@ -85,12 +76,9 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
-<<<<<<< HEAD
             "pestphp/pest-plugin": true
-=======
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         }
     },
     "minimum-stability": "stable",

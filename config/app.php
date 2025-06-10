@@ -1,10 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
-<<<<<<< HEAD
-=======
 use Illuminate\Support\ServiceProvider;
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 
 return [
 
@@ -60,11 +57,8 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-<<<<<<< HEAD
     'asset_url' => env('ASSET_URL', '/'),
-=======
     'asset_url' => env('ASSET_URL'),
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 
     /*
     |--------------------------------------------------------------------------
@@ -148,11 +142,8 @@ return [
 
     'maintenance' => [
         'driver' => 'file',
-<<<<<<< HEAD
         // 'store'  => 'redis',
-=======
         // 'store' => 'redis',
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     ],
 
     /*
@@ -166,7 +157,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'providers' => [
 
         /*
@@ -195,9 +185,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-=======
     'providers' => ServiceProvider::defaultProviders()->merge([
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
         /*
          * Package Service Providers...
          */
@@ -210,12 +198,9 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-<<<<<<< HEAD
 
     ],
-=======
     ])->toArray(),
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
 
     /*
     |--------------------------------------------------------------------------
@@ -229,11 +214,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-<<<<<<< HEAD
         // 'ExampleClass' => App\Example\ExampleClass::class,
-=======
         // 'Example' => App\Facades\Example::class,
->>>>>>> bcf9ffb1632dc6551fc88588a796ba1635f1b76e
     ])->toArray(),
 
 ];
